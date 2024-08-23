@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     switch (_themeMode) {
       case ThemeMode.system:
         return SchedulerBinding.instance.window.platformBrightness ==
-            Brightness.light;
+            Brightness.dark;
       case ThemeMode.light:
         return true;
       case ThemeMode.dark:
